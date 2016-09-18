@@ -39,6 +39,21 @@ img {
   z-index: -1;
 }
 
+.fa {
+    text-decoration: none;
+    color: #fff;
+}
+
+#all {
+    background: rgba(0,0,0,0.3);
+    /*padding: 0px 30px 15px;*/
+    padding: 0px 20px;
+}
+
+#all p {
+    padding: 0px 20px;
+}
+
 .font { 
     text-align: center;
     color: #fff;

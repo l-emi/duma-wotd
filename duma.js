@@ -38,7 +38,7 @@ function getDate() {
 * Use the Wordnik API to get the word of the day and its definition
 ********************************************************************/
 function theWord(callback) {
-    var baseUrl = "http://api.wordnik.com:80/v4/words.json/wordOfTheDay?api_key=";
+    var baseUrl = "https://api.wordnik.com/v4/words.json/wordOfTheDay?api_key=";
     var apiKey = "1380d58b8b5c33325130c0e8f340be6bc6fba6f7bb65bfc6f";
     var apiUrl = baseUrl + apiKey;
 
@@ -63,7 +63,7 @@ function theWord(callback) {
 * Use the Wordnik API to get the pronunciation of the word
 ***********************************************************/
 function pronounceIt() {
-    var baseUrl = "http://api.wordnik.com:80/v4/word.json/"
+    var baseUrl = "https://api.wordnik.com/v4/word.json/"
     var apiKey = "1380d58b8b5c33325130c0e8f340be6bc6fba6f7bb65bfc6f";
     var word = $("#word").text();
     //var word = "test";
@@ -93,12 +93,4 @@ $(document).ready(function() {
     theWord().then(pronounceIt);
     $('img').css('opacity', 1);
     $('body').css('opacity', 1);
-});
-
-
-/*******************
-* Link to portfolio
-********************/
-$('#codedby').click(function() {
-    window.open("https://l-emi.github.io/");
 });
