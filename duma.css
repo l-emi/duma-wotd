@@ -1,0 +1,84 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700';
+
+html {
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+body {
+    opacity: 0;
+    font-family: 'Open Sans', sans-serif;
+    -moz-transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
+}
+
+img {
+    opacity: 0;
+    -moz-transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.font { 
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 2px 2px 20px #222;
+}
+
+#date {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#word {
+    font-size: 5em;
+}
+
+#defin {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+#pronun {
+    font-family: "Open Sans", sans-serif;
+}
+
+#codedby {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-weight:600;
+    font-size: 1.2em;
+    margin: 0px 10px 5px 0px;
+    opacity: 0.5;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+#codedby:hover {
+    cursor: pointer;
+    font-size: 2em;
+    transition: 0.3s ease;
+    opacity: 1;
+}
