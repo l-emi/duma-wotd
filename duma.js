@@ -68,6 +68,7 @@ function pronounceIt() {
     var word = $("#word").text();
     //var word = "test";
     var apiUrl = baseUrl + word + "/pronunciations?useCanonical=false&typeFormat=ahd&limit=50&api_key=" + apiKey;
+    $("#link").attr("href", "http://www.dictionary.com/browse/" + word + "?s=t"); //link to dictionary.com page
 
     $.ajax({
         type: "GET",
