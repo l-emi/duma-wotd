@@ -23,14 +23,9 @@ img {
     transition: opacity 2s;
 }
 
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #fff;
+a, a:hover, a:active, a:visited {
+    text-decoration: none !important;
+    color: #fff !important;
 }
 
 .centered {
