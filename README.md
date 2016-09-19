@@ -10,5 +10,9 @@ A simple, clean word-of-the-day app.
 Дума (duma) means word in Bulgarian. I thought it was quite catchy! 
 <br>
 
+**You can also get it as a Chrome Extension!**<br>
+[Woohoo!](https://chrome.google.com/webstore/detail/duma/mamoofifhahehmokjnkpdkoojkcliimc)
+<br>
+
 ![preview1](https://www.dropbox.com/s/pnonmm2ia1brmhp/one.png?dl=1)
 ![preview2](https://www.dropbox.com/s/onqnjcyes5cglvd/two.png?dl=1)
