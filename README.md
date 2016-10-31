@@ -14,5 +14,5 @@ A simple, clean word-of-the-day app.
 [Woohoo!](https://chrome.google.com/webstore/detail/duma/mamoofifhahehmokjnkpdkoojkcliimc)
 <br>
 
-![preview1](https://www.dropbox.com/s/pnonmm2ia1brmhp/one.png?dl=1)
-![preview2](https://www.dropbox.com/s/onqnjcyes5cglvd/two.png?dl=1)
+![preview1](https://www.dropbox.com/s/96vyp1nctkfe7sw/long.png?dl=1)
+![preview2](https://www.dropbox.com/s/c10dicvt1z8nr3z/medium%202.png?dl=1)
