@@ -65,16 +65,15 @@ a, a:hover, a:active, a:visited {
 }
 
 #date {
-    font-size: 1.2em;
-    display: inline-block;
-    /*text-shadow: 2px 2px 20px #222;*/
-    top: 1.9%;
-    height: 25px;
+    font-size: 1.05em;
+    line-height: 1.5em;
+    width: 100%;
+    height: 1.5em;
 }
 
 #word {
     font-size: 5em;
-    text-shadow: 2px 2px 20px #555;
+    /*text-shadow: 0px 0px 50px #777;*/
 }
 
 #defin {
@@ -86,21 +85,39 @@ a, a:hover, a:active, a:visited {
     font-family: "Open Sans", sans-serif;
 }
 
-#codedby {
-    position: fixed;
-    bottom: 0;
+.fa-heart-o {
     right: 0;
-    font-weight:600;
-    font-size: 1.2em;
-    margin: 0px 10px 5px 0px;
-    opacity: 0.5;
-    color: #fff;
-    transition: 0.3s ease;
+    position: absolute;
+    margin-right: 5px;
+    margin-top: 4px;
+    z-index: 100;
 }
 
-#codedby:hover {
+#favorites {
+    position: absolute;
+    height: 2em;
+    line-height: 2em;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    color: white;
+    font-size: 1.05em;
+    background: rgba(0,0,0,0.15);
     cursor: pointer;
-    font-size: 2em;
-    transition: 0.3s ease;
-    opacity: 1;
+}
+#favorites:active {
+    background: rgba(0,0,0,0.3);
+}
+
+#fave-panel {
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+}
+
+.hide {
+    visibility: hidden;
 }

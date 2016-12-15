@@ -95,3 +95,14 @@ $(document).ready(function() {
     $('img').css('opacity', 1);
     $('body').css('opacity', 1);
 });
+
+$('#favorites').click(function() {
+    $('#fave-panel').addClass('hide');
+})
+
+//store items in favorites by clicking a heart icon
+// use localStorage
+//https://developer.mozilla.org/en/docs/Web/API/Window/localStorage
+//http://codepen.io/CrocoDillon/pen/pIlKB?editors=0010
+
+
