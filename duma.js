@@ -4,8 +4,8 @@
 * Resize the image to fit the user's screen
 ********************************************/
 function placeImage(w, h) {
-    w = window.screen.availWidth;
-    h = window.screen.availHeight;
+    w = window.innerWidth;
+    h = window.innerHeight;
 
     document.body.innerHTML += '<img src=' + '"https://source.unsplash.com/collection/347929/' + w + 'x' + h + '"' + ' id="bg" alt="">';
 }
